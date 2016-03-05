@@ -6,7 +6,7 @@
         version="1.0.9">
       
     <name>Google Mobile Ads SDK for Cordova</name>
-    <description>Add Google Mobile Ads SDK to Cordova porject, as dependency for other plugins</description>
+    <description>Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins</description>
     <author>Google</author>
     <keywords>admob,google,ad</keywords>
     <repo>https://github.com/sunnycupertino/cordova-admob-sdklibs.gitt</repo>
