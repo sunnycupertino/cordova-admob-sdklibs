@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-admob-sdklibs"
-        version="2.0.6">
+        version="2.0.7">
       
     <name>Google Mobile Ads SDK for Cordova</name>
     <description>Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins</description>
@@ -45,6 +45,7 @@
 		  <framework src="StoreKit.framework" />
 		  <framework src="SystemConfiguration.framework" />
 		  <framework src="UIKit.framework" />
+		  <framework src="QuartzCore.framework" />
 
 <!--
 		<hook type="after_plugin_add" src="hooks/after_plugin_add/000-create-links.sh" />
