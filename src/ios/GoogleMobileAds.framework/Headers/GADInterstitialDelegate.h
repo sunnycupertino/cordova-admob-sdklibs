@@ -7,14 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import <GoogleMobileAds/GADAdDelegate.h>
-
 @class GADInterstitial;
 @class GADRequestError;
 
 /// Delegate for receiving state change messages from a GADInterstitial such as interstitial ad
 /// requests succeeding/failing.
-@protocol GADInterstitialDelegate<GADAdDelegate>
+@protocol GADInterstitialDelegate<NSObject>
 
 @optional
 

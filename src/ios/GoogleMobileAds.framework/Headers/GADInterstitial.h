@@ -11,7 +11,6 @@
 #import <GoogleMobileAds/GADInterstitialDelegate.h>
 #import <GoogleMobileAds/GADRequest.h>
 #import <GoogleMobileAds/GADRequestError.h>
-#import <GoogleMobileAds/GoogleMobileAdsDefines.h>
 
 /// An interstitial ad. This is a full-screen advertisement shown at natural transition points in
 /// your application such as between game levels or news stories.
@@ -30,10 +29,12 @@
 @property(nonatomic, readonly, copy) NSString *adUnitID;
 
 /// Optional delegate object that receives state change notifications from this GADInterstitalAd.
+/// Remember to nil this property before deallocating the delegate.
 @property(nonatomic, weak) id<GADInterstitialDelegate> delegate;
 
 /// Optional delegate object that receives in-app purchase notifications from this ad. Required for
 /// the custom in-app purchase flow, but ignored when using the default in-app purchase flow.
+/// Remember to nil this property before deallocating the delegate.
 @property(nonatomic, weak) id<GADInAppPurchaseDelegate> inAppPurchaseDelegate;
 
 #pragma mark Making an Ad Request
@@ -75,10 +76,10 @@
 #pragma mark Deprecated
 
 /// Deprecated intializer. Use initWithAdUnitID: instead.
-- (instancetype)init GAD_DEPRECATED_MSG_ATTRIBUTE("Use initWithAdUnitID:.");
+- (instancetype)init DEPRECATED_MSG_ATTRIBUTE("Use initWithAdUnitID:.");
 
 /// Deprecated setter, use initWithAdUnitID: instead.
 - (void)setAdUnitID:(NSString *)adUnitID
-    GAD_DEPRECATED_MSG_ATTRIBUTE("Use initWithAdUnitID: instead of setting the ad unit ID.");
+    DEPRECATED_MSG_ATTRIBUTE("Use initWithAdUnitID: instead of setting the ad unit ID.");
 
 @end
