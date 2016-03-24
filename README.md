@@ -1,8 +1,14 @@
 ## Google Mobile Ads SDK for Cordova
 
-Note: To include AdMob ads in your cordova platform, please use this plugin [https://github.com/sunnycupertino/cordova-plugin-admob-simple/](https://github.com/sunnycupertino/cordova-plugin-admob-simple/ "Cordova AdMob Plugin") 
+Note: To include AdMob ads in your Cordova or PhoneGap project, please use the Cordova AdMob plugin below:
 
-OR
+[https://github.com/sunnycupertino/cordova-plugin-admob-simple/](https://github.com/sunnycupertino/cordova-plugin-admob-simple/ "Cordova AdMob Plugin on GitHub") 
+
+OR on NPM
+
+[https://www.npmjs.com/package/cordova-plugin-admob-simple](https://www.npmjs.com/package/cordova-plugin-admob-simple "Cordova AdMob Plugin on NPM") 
+
+OR via NPM command line
 
 **cordova plugin add cordova-plugin-admob-simple**
 
@@ -18,3 +24,4 @@ Platforms supported:
 
 
 
+![track](http://goo.gl/TaOCEl)
