@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-admob-sdklibs"
-        version="2.1.4">
+        version="2.1.5">
       
     <name>Google Mobile Ads SDK for Cordova</name>
     <description>Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins</description>
@@ -30,22 +30,27 @@
      </platform>
 
      <platform name="ios">
-        <framework src="src/ios/GoogleMobileAds.framework" custom="true" />		
-		  <framework src="AdSupport.framework" />
-		  <framework src="AudioToolbox.framework" />
-		  <framework src="AVFoundation.framework" />
-		  <framework src="CoreGraphics.framework" />
-		  <framework src="CoreMedia.framework" />
-		  <framework src="CoreTelephony.framework" />
-		  <framework src="EventKit.framework" />
-		  <framework src="EventKitUI.framework" />
-		  <framework src="Foundation.framework" />
-		  <framework src="MediaPlayer.framework" />
-		  <framework src="MessageUI.framework" />
-		  <framework src="StoreKit.framework" />
-		  <framework src="SystemConfiguration.framework" />
-		  <framework src="UIKit.framework" />
-		  <framework src="QuartzCore.framework" />
+		<framework src="src/ios/GoogleMobileAds.framework" custom="true" />
+        <framework src="AdSupport.framework" />
+        <framework src="AudioToolbox.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="CoreBluetooth.framework" />
+        <framework src="CoreGraphics.framework" />
+        <framework src="CoreMedia.framework" />
+        <framework src="CoreMotion.framework" />
+        <framework src="CoreTelephony.framework" />
+        <framework src="CoreVideo.framework" />
+        <framework src="EventKit.framework" />
+        <framework src="EventKitUI.framework" />
+        <framework src="Foundation.framework" />
+        <framework src="GLKit.framework" />
+        <framework src="MediaPlayer.framework" />
+        <framework src="MessageUI.framework" />
+        <framework src="OpenGLES.framework" />
+        <framework src="SafariServices.framework" />
+        <framework src="StoreKit.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="UIKit.framework" />
 
 <!--
 		<hook type="after_plugin_add" src="hooks/after_plugin_add/000-create-links.sh" />
