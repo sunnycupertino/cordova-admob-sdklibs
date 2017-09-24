@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-admob-sdklibs"
-        version="2.1.5">
+        version="2.1.6">
       
     <name>Google Mobile Ads SDK for Cordova</name>
     <description>Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins</description>

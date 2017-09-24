@@ -18,7 +18,7 @@ This cordova plugin add Google Mobile Ads SDK to Cordova project, mainly as depe
 
 Platforms supported:
 - [x] Android, via SDK v7.8 (part of Google Play service platform), [official ...](https://developers.google.com/admob/android/download)
-- [x] iOS, via SDK v7.7, [official ...](https://developers.google.com/admob/ios/download)
+- [x] iOS, via SDK v7.24, [official ...](https://developers.google.com/admob/ios/download)
 - [x] Windows Phone, via SDK v6.5.13, [official ...](https://developers.google.com/admob/wp/download)
 - [x] Amazon-FireOS, same as Android
 
